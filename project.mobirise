@@ -5,7 +5,8 @@
     "theme": {
       "name": "purity",
       "title": "PurityM",
-      "styling": {}
+      "styling": {},
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.12.3",
@@ -20,7 +21,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 0,
+    "uniqCompNum": 2,
     "versionPublish": "4.12.3"
   },
   "pages": {
@@ -34,7 +35,48 @@
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/584%D0%B8%D1%82%D0%BF%D0%B85%D0%BC%D1%82-756x622.png"
       },
-      "components": []
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": "1",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#FFF8E0",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Стать подписчиком&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Нажать</a>",
+          "form": {
+            "action": "kraiton379@gmail.com",
+            "alerts": {
+              "success": "Спасибо за подписку !"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Введите свой почтовый адрес..."
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#d9534f"
+            }
+          }
+        }
+      ]
     }
   }
 }
